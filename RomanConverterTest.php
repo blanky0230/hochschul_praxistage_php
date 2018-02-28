@@ -11,7 +11,7 @@ class RomanConverterTest extends TestCase
     public function setUp()
     {
         $this->converter = new RomanConverter();
-
+        parent::setUp();
     }
 
     public function test2k18()
